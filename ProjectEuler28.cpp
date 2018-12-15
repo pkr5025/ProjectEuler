@@ -1,9 +1,9 @@
 /* Project Euler Problem 28 from projecteuler.net
  by Philip Klein-Rodick
  Solution: 669171001
- Idea: For an n by n spiral, there are (n+1)/2-1 squares (-1 since the first square is an exception since it consists of just the number 1.)
- For each square, we must add their corner values together. For a given square i, its corner values increase by 2*i as you spiral
- around.  Given a running sum, we increase it 4 times per square to find the final sum.
+ Idea: For an n by n spiral, there are (n+1)/2-1 squares (-1 since the first square is an exception since it consists of 
+ just the number 1.) For each square, we must add their corner values together. For a given square i, its corner values increase 
+ by 2*i as you spiral around.  Given a running sum, we increase it 4 times per square to find the final sum.
  */
 
 #include <iostream>
